@@ -1,0 +1,33 @@
+.transactionHistory {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 18px;
+  text-align: left;
+}
+
+.headerCell {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+}
+
+.row:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.row:nth-child(odd) {
+  background-color: white;
+}
+
+.row:hover {
+  background-color: #ddd;
+}
+
+.cell {
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+  text-align: center;
+  color: black;
+}
